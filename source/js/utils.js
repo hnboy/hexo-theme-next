@@ -337,7 +337,7 @@ NexT.utils = {
     }
   },
 
-  getScript: (url, {
+  getScript: (src, {
     condition = false,
     attributes: {
       id = '',
@@ -366,7 +366,13 @@ NexT.utils = {
       script.onload = resolve;
       script.onerror = reject;
 
-      script.src = url;
+      if (typeof src === 'object') {
+        const { url, integrity } = src;
+        script.src = url;
+        if (integrity) script.integrity = integrity;
+      } else {
+        script.src = src;
+      }
       (parentNode || document.head).appendChild(script);
     }
   }),
