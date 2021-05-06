@@ -28,7 +28,7 @@ custom_file_path:
   #bodyEnd: source/_data/body-end.njk
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
-  style: source/_data/styles.styl
+  # style: source/_data/styles.styl
 
 
 # ---------------------------------------------------------------
@@ -847,6 +847,16 @@ canvas_ribbon:
   zIndex: -1 # The display level of the ribbon
 
 
+# Canvas-nest
+# Dependencies: https://github.com/theme-next/theme-next-canvas-nest
+canvas_nest:
+  enable: true
+  onmobile: true # 是否在手机上显示
+  color: "255,51,51" # RGB颜色设置
+  opacity: 0.5 # 线条透明度
+  zIndex: -1 # 显示级别
+  count: 160 # 线条的数量，越多越卡
+  
 #! ==============================================================
 #! DO NOT EDIT THE FOLLOWING SETTINGS
 #! UNLESS YOU KNOW WHAT YOU ARE DOING
@@ -942,6 +952,9 @@ vendors:
   # Canvas ribbon
   canvas_ribbon:
 
+  # Canvas nest
+  canvas_nest: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-nest@1.0.0/canvas-nest.min.js
+  canvas_nest_nomobile: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-nest@1.0.0/canvas-nest-nomobile.min.js
 # Assets
 # Accelerate delivery of static files using a CDN
 css: css
