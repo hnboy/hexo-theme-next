@@ -87,7 +87,7 @@ menu:
   archives: /archives/ || fa fa-archive
     #schedule: /schedule/ || fa fa-calendar
   commonweal: /404/ || fa fa-heartbeat
-  sitemap: /sitemap.xml || sitemap
+  sitemap: /sitemap.xml || fa fa-sitemap
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
