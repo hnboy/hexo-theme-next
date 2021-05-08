@@ -425,7 +425,7 @@ font:
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
   #host: //fonts.loli.net
-  host: //fonts.proxy.ustclug.org
+  host: https://fonts.lug.ustc.edu.cn
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -435,7 +435,7 @@ font:
   # Global font settings used for all elements inside <body>.
   global:
     external: true
-    family: Noto Serif SC
+    family: Noto Sans SC
     size:
 
   # Font settings for site title (.site-title).
