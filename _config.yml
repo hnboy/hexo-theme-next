@@ -42,7 +42,7 @@ custom_file_path:
 scheme: Gemini
 
 # Dark Mode
-darkmode: false
+darkmode: true 
 
 
 # ---------------------------------------------------------------
@@ -951,4 +951,4 @@ css: //cdn.jsdelivr.net/gh/hnboy/hnboy.github.io@master/css
 js: //cdn.jsdelivr.net/gh/hnboy/hnboy.github.io@master/js
 #js: js
 #images: images
-images: //cdn.jsdelivr.net/gh/hnboy/hnboy.github.io@master/images
+images: //purge.jsdelivr.net/gh/hnboy/hnboy.github.io@master/images
