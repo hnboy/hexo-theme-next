@@ -42,7 +42,7 @@ custom_file_path:
 scheme: Gemini
 
 # Dark Mode
-darkmode: true 
+darkmode: false 
 
 
 # ---------------------------------------------------------------
@@ -946,9 +946,9 @@ vendors:
 
 # Assets
 # Accelerate delivery of static files using a CDN
-#css: css
-css: //cdn.jsdelivr.net/gh/hnboy/hnboy.github.io@master/css
-js: //cdn.jsdelivr.net/gh/hnboy/hnboy.github.io@master/js
-#js: js
-#images: images
-images: //cdn.jsdelivr.net/gh/hnboy/hnboy.github.io@master/images
+css: css
+#css: //cdn.jsdelivr.net/gh/hnboy/hnboy.github.io@master/css
+#js: //cdn.jsdelivr.net/gh/hnboy/hnboy.github.io@master/js
+js: js
+images: images
+#images: //cdn.jsdelivr.net/gh/hnboy/hnboy.github.io@master/images
